@@ -6,8 +6,8 @@ The output will display the minimum cost required for the transformation.
 int main(void)
 {
 	int t;
-	 int i,n,lit,a[5000];
-	 int sum;
+	int i,n,lit,a[5000];
+	int sum;
 	scanf("%d",&t); //saves the user input as t
 	while(t!=0)
 	{
