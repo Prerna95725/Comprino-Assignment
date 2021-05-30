@@ -20,7 +20,7 @@ int main(void)
 			if(a[i]<lit) 
 			lit=a[i]; 
 		}
-		sum=1;
+	
 		sum=lit*(n-1); //decreases the size by 1 and sum of costs of operations
 		printf("%d",sum);
 		}
