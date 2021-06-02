@@ -13,7 +13,7 @@ void main()
 	scanf("%d",&T);
 	while(T--) //for loop execution
 	{
-		scanf("%d %d %d",&T,&c,&l); //saves the user input as b,c,l 
+		scanf("%d %d %d",&c,&d,&l); //saves the user input as b,c,l 
 		max_legs=(c+d)*4; // c represent cat and d represent dog
 		if(c>(d*2))
 	  {
